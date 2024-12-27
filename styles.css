@@ -9,7 +9,7 @@ body {
   header {
     background-color: #333;
     color: white;
-    padding: 10px;
+    padding: 5px;
   }
   
   header nav ul {
@@ -85,4 +85,12 @@ body {
   button:hover {
     background-color: #555;
   }
+
+.btn {
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: black;
+  color : white;
+}
   
