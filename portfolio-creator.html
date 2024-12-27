@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="creator">
+      <h1>Create Your Portfolio</h1>
+      <form>
+        <label for="template">Select a Template:</label>
+        <select id="template" name="template">
+          <option value="template1">Template 1</option>
+          <option value="template2">Template 2</option>
+          <option value="template3">Template 3</option>
+        </select>
+
+        <label for="projects">Add Projects:</label>
+        <textarea id="projects" placeholder="Describe your projects here"></textarea>
+
+        <label for="bio">About Me:</label>
+        <textarea id="bio" placeholder="Tell us about yourself"></textarea>
+
+        <button type="submit">Save Portfolio</button>
+      </form>
+      <a href="preview.html" class="btn">Preview Portfolio</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Portfolio Builder | All Rights Reserved</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
